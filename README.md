@@ -4,5 +4,7 @@ This project includes three scripts that describe how to extract "Activation Map
 1. `Class_Activation_Map_MNIST.ipynb` uses [Fashion MNIST dataset](https://github.com/zalandoresearch/fashion-mnist) dataset.<br>
 The model is built by several Conv blocks and the validation accuracy reaches 85% after a few epochs. The result:
 <img src="./mnist.jpg">
-where the backgound with darker area implies more attention the neural network paid. 
+where the darker areas in backgound imply more attention the neural network paid. 
 
+2. `Class_Activation_Map_CatandDogs.ipynb` uses [Cats vs Dogs](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs) in the tensorflow_datasets, which is a binary classification problem. <br>
+<img src="./result.jpg">
