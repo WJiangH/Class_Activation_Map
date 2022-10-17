@@ -10,3 +10,9 @@ where the darker areas in backgound imply more attention the neural network paid
 The validation accuracy reaches 0.87 after 25 epochs and a sample result is shown as, 
 <img src="./result.jpg">
 Highlighted areas such as eyes and nose play an important role in classifying objects using neural networks
+
+3. `Saliency_Map.ipynb` uses [Inception V3 model](https://arxiv.org/abs/1512.00567) to plot saliency maps, which also tells us what parts of the image the model is focusing on when making its predictions. 
+- The main difference is in saliency maps, we are just shown the relevant pixels instead of the learned features. 
+- one could generate saliency maps by getting the gradient of the loss with respect to the image pixels. 
+- changes in certain pixels that strongly affect the loss will be shown brightly in your saliency map.
+<img src="./saliency_result.jpg">
