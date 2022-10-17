@@ -15,4 +15,4 @@ Highlighted areas such as eyes and nose play an important role in classifying ob
 - The main difference is in saliency maps, we are just shown the relevant pixels instead of the learned features. 
 - one could generate saliency maps by getting the gradient of the loss with respect to the image pixels. 
 - changes in certain pixels that strongly affect the loss will be shown brightly in your saliency map.
-<img src="./saliency_result.jpg" width='800' height='400'>
+<img src="./saliency_result.jpg" width='600' height='300'>
